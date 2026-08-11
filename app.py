@@ -32,25 +32,25 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # artifacts folder inside the project
 ARTIFACT_DIR = os.path.join(
     BASE_DIR,
-    r"C:\Users\saive\Desktop\EV_Battery_Health_Ann\artifacts"
+    "artifacts"
 )
 
 # Model file
 MODEL_PATH = os.path.join(
     ARTIFACT_DIR,
-    r"C:\Users\saive\Desktop\EV_Battery_Health_Ann\artifacts\battery_soh_ann.keras"
+    "battery_soh_ann.keras"
 )
 
 # Preprocessor file
 PREPROCESSOR_PATH = os.path.join(
     ARTIFACT_DIR,
-    r"C:\Users\saive\Desktop\EV_Battery_Health_Ann\artifacts\preprocessor.joblib"
+    "preprocessor.joblib"
 )
 
 # Metadata file
 METADATA_PATH = os.path.join(
     ARTIFACT_DIR,
-    r"C:\Users\saive\Desktop\EV_Battery_Health_Ann\artifacts\metadata.json"
+    "metadata.json"
 )
 
 
