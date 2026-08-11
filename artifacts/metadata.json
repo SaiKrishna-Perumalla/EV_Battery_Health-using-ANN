@@ -1,0 +1,32 @@
+{
+  "target": "SOH",
+  "drop_columns": [
+    "BatteryID"
+  ],
+  "numeric_features": [
+    "Cycle",
+    "Voltage",
+    "Current",
+    "Temperature",
+    "ChargeTime",
+    "DischargeTime",
+    "InternalResistance",
+    "Capacity",
+    "AmbientHumidity",
+    "C_Rate"
+  ],
+  "categorical_features": [
+    "BatchID"
+  ],
+  "batch_values": [
+    "BatchA",
+    "BatchB",
+    "BatchC",
+    "BatchD"
+  ],
+  "metrics": {
+    "mae": 2.2335647530716387,
+    "rmse": 2.811643034328437,
+    "r2": 0.9778503342998879
+  }
+}
